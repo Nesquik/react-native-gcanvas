@@ -31,7 +31,6 @@ Pod::Spec.new do |s|
                    'core/src/GCanvasWeex.{hpp,cpp}',
                    'core/src/GCanvasManager.{h,cpp}',
                    'core/src/gcanvas/*.*',
-                   'core/src/gcanvas/shaders/*.*',
                    'core/src/support/DynArray.h',
                    'core/src/support/Encode.{h,cpp}',
                    'core/src/support/GLUtil.{h,cpp}',
@@ -50,7 +49,8 @@ Pod::Spec.new do |s|
                            'core/src/support/GLUtil.h',
                            'core/src/support/Log.h',
                            'core/src/support/Util.h',
-                           'core/src/platform/iOS/*.h'
+                           'core/src/platform/iOS/*.h',
+                           'core/src/gcanvas/shaders/*.*'
 
 
   s.user_target_xcconfig  = { 'FRAMEWORK_SEARCH_PATHS' => "'$(PODS_ROOT)/GCanvas'",  
